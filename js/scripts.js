@@ -6,7 +6,6 @@ function pingPong(number) {
   for (var i=1; i<=number; i++){
     if ((i % 3 === 0) && (i % 5 === 0)){
       textArr.push("pingpong");
-      //text = text.concat( " pingpong");
     }
     else if (i % 3 === 0){
       textArr.push("ping");
@@ -22,7 +21,7 @@ function pingPong(number) {
   }
   return textArr;
 }
-
+//user interface logic
 $(document).ready(function(){
   $("#ping-pong").submit(function(event) {
     event.preventDefault();
