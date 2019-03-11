@@ -18,7 +18,6 @@ _It can count up to the provided number._
 
 * _Exemple Input: 15_
 * _Exemple Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong]_
-* _Numbers divisible by 15 become "pingpong"_
 
 ## Setup/Installation Requirements
 
