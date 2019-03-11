@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Ping Pong</title>
+  </head>
+  <body>
+    <div class="container jumbotron">
+      <h1>Ping Pong</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <form class="col-md-9"id="ping-pong">
+          <div class="form-group">
+            <h2><strong>Let's play!</strong></h2>
+            <h4>Rules:</h4>
+            <p>Ping Pong will count up to your number from 1 with following exceptions:</p>
+            <ol>
+              <li>Numbers divisible by 3 become "ping"</li>
+              <li>Numbers divisible by 5 become "pong"</li>
+              <li>Numbers divisible by 15 become "pingpong"</li>
+            </ol>
+            <label for="number"><strong>Enter your number here:</strong></label>
+            <input id="number" type="text">
+          </div>
+          <button type="submit" class="btn btn-default">Find out!</button>
+          <div id="result">
+            <ul id="result2"></ul>
+          </div>
+        </form>
+        <div class="col-md-3" id="about">
+          <h2>About Ping Pong</h2>
+          <h4>Created by:</h4>
+          <p>Nina Nikoghosyan</p>
+          <h4>GitHub Username/URL</h4>
+          <a href="https://githubninan.github.io/pingpong">https://githubninan.github.io/pingpong</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

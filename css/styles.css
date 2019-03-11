@@ -1,0 +1,26 @@
+body{
+  background-image: url("../img/img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background-color: #F3D250;
+  text-align: center;
+  color: black;
+}
+#ping-pong {
+  background-color: #90CCF4;
+  height: 800px;
+  color: black;
+}
+#about {
+  background-color: #F78888;
+  color: black;
+  height: 800px;
+}
+#result{
+  display: none;
+}
